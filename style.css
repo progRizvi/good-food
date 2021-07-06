@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.dis-flex {
+  display: flex;
+  margin: 100px 0px;
+}
+.hero-left {
+  margin-top: 160px;
+  width: 50%;
+}
+.hero-h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #575757;
+  padding: 0px 80px;
+}
+
+.skip-text {
+  color: #008080;
+}
+.hero-p {
+  color: #828282;
+  padding: 30px 80px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.link-tag {
+  margin: 0px 80px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(45deg, #fb9049, #fc4f3c);
+  padding: 20px 40px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px #fb934a;
+}
+.hero-img img {
+  margin-left: 100px;
+}
+.about-section {
+  background: url("imgs/about-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+.about-img {
+  width: 50%;
+}
+.about-right {
+  width: 50%;
+  text-align: left;
+}
+.about-right-inner {
+  width: 75%;
+}
+.about-right h2 {
+  font-size: 35px;
+  color: #707070;
+  padding: 30px 20px;
+}
+.about-p {
+  color: #18191f;
+  padding: 20px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+.about-right-inner a {
+  margin: 0px;
+  margin-left: 20px;
+}
+.recipies-top {
+  text-align: center;
+  display: flex;
+}
+.recipies-top-inner {
+  justify-content: center;
+  width: 33.3%;
+}
+.recipies-top h2 {
+  font-size: 35px;
+  color: #676767;
+  padding: 20px 0px;
+}
+.recipies-top-inner p {
+  margin-bottom: 40px;
+  color: #252525;
+  font-size: 18px;
+}
+.recipies-bottom {
+  margin-top: -5px;
+}
+.recipies-bottom .recipies-item {
+  width: 33.3%;
+  padding: 25px;
+  margin: 0px 50px;
+  box-shadow: 0px 0px 20px #ddd;
+  border-radius: 30px;
+}
+.recipies-bottom .recipies-item img {
+  width: 100%;
+  height: auto;
+}
+.recipies-bottom .recipies-item h3 {
+  padding: 20px 0px;
+  font-size: 30px;
+}
+.recipies-bottom .recipies-item p {
+  line-height: 1.6;
+  letter-spacing: 1;
+  padding: 15px 0px;
+  color: #18191f;
+}
+.followers {
+  margin: 0px 50px;
+  box-shadow: 0px 0px 20px #ddd;
+  justify-content: center;
+  border-radius: 20px;
+}
+.followers-item {
+  padding: 80px;
+  font-size: 32px;
+  line-height: 1.5;
+}
+.followers-item p {
+  font-size: 20px;
+  color: #18191f;
+}
+footer {
+  margin-top: 50px;
+  background: #0b0d17;
+  color: #5b5b5b;
+  text-align: center;
+  padding: 50px;
+}
+footer h2 {
+  text-transform: uppercase;
+}
+footer span {
+  color: #008080;
+}
+footer p {
+  margin-top: 20px;
+  color: #fff;
+}
