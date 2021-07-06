@@ -136,6 +136,34 @@ body {
   font-size: 20px;
   color: #18191f;
 }
+.subscriber-section {
+  text-align: center;
+  margin: 50px 0px;
+}
+.subscriber-section h2 {
+  font-size: 35px;
+}
+.subscriber-form {
+  justify-content: center;
+  padding: 50px;
+  margin: 0;
+}
+.subscriber-form input {
+  padding: 20px;
+}
+.subscriber-form input[type="email"] {
+  padding: 10px;
+  font-size: 20px;
+}
+.subscriber-form button {
+  padding: 11px;
+  font-size: 18px;
+  background: #008080;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 5px solid #0c4949;
+}
 footer {
   margin-top: 50px;
   background: #0b0d17;
