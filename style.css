@@ -10,9 +10,43 @@ p {
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 .dis-flex {
   display: flex;
   margin: 100px 0px;
+}
+/* Navigation Section */
+.nav-main-section {
+  background: #008080;
+  margin: 0px;
+}
+.logo {
+  width: 50%;
+  margin: 10px 60px;
+}
+.logo-img {
+  width: 10%;
+  height: auto;
+  margin: 20px;
+}
+.nav-bar {
+  margin: 0px;
+}
+.nav-bar ul {
+  text-align: right;
+  margin: 30px;
+}
+.nav-bar ul li {
+  list-style: none;
+  padding: 15px;
+}
+.nav-bar ul li a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #ddd;
+  font-weight: 700;
 }
 .hero-left {
   margin-top: 160px;
